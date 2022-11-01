@@ -1,23 +1,6 @@
 # ninja log v5
-0	724	6885753169818257	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-725	908	6885753171615696	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-3	243	6885753622051008	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-244	316	6885753622732075	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-3	231	6885763921804497	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-232	304	6885763922482972	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-2	223	6885765826138551	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-223	294	6885765826811930	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-4	454	6885824616733460	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-455	586	6885824618024882	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-3	427	6885829467118267	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-428	600	6885829468770652	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-5	435	6885832643194109	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-435	566	6885832644453901	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-2	284	6885846652122503	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-284	370	6885846652942737	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-2	233	6885847386671011	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-233	306	6885847387343635	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-5	514	6885847769018323	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
-514	799	6885847771377308	OOP_Lab_3_constructors.exe	c6e14507ee87a216
-3	239	6885848320445414	CMakeFiles/OOP_Lab_3_constructors.dir/main.cpp.obj	3622b91e9b371e5
 239	313	6885848321137280	OOP_Lab_3_constructors.exe	c6e14507ee87a216
+0	351	6890444996869565	CMakeFiles/ex-1.dir/ex-1.cpp.obj	9446c09749ab3ad1
+352	474	6890444998024348	ex-1.exe	8c53b81909a12a2c
+1	259	6890445045774471	CMakeFiles/ex-2.dir/ex-2.cpp.obj	97a71434cb962e15
+259	348	6890445046598684	ex-2.exe	a0777e896d28b4f8

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "OOP_Lab_3_constructors.exe"
+			"path" : "ex-2.exe"
 		},
 		{
-			"path" : "OOP_Lab_3_constructors.pdb"
+			"path" : "ex-2.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "OOP_Lab_3_constructors::@6890427a1f51a3e7e1df",
+	"id" : "ex-2::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "OOP_Lab_3_constructors",
-	"nameOnDisk" : "OOP_Lab_3_constructors.exe",
+	"name" : "ex-2",
+	"nameOnDisk" : "ex-2.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "ex-2.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

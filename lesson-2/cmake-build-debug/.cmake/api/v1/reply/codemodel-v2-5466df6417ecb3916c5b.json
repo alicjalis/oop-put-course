@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "OOP_Lab_3_constructors",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "OOP_Lab_3_constructors::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OOP_Lab_3_constructors-Debug-13e23c87749c5e3a4878.json",
-					"name" : "OOP_Lab_3_constructors",
+					"id" : "ex-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex-1-Debug-7caa24ae868b02d2068f.json",
+					"name" : "ex-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex-2-Debug-6515e8cfd27806d38032.json",
+					"name" : "ex-2",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/alicj/CLionProjects/OOP_Lab_3_constructors/cmake-build-debug",
-		"source" : "C:/Users/alicj/CLionProjects/OOP_Lab_3_constructors"
+		"build" : "C:/Users/alicj/CLionProjects/oop/lesson-2/cmake-build-debug",
+		"source" : "C:/Users/alicj/CLionProjects/oop/lesson-2"
 	},
 	"version" : 
 	{

@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "jezu ała" << std::endl;
+    std::cout << "" << std::endl;
     return 0;
 }

@@ -45,7 +45,7 @@ int main() {
     std::cout << "Enter breed of the tree C:";
     std::cin >> breed;
 
-    tree a, b(7, 2), c(breed), d(3, 1, 20, "birch");
+    tree a, b(7,2), c(breed), d(3, 1, 20, "birch");
 
     a.print_details();
     b.print_details();
