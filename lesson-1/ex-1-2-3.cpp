@@ -23,6 +23,7 @@ class Cat {
 public:
     std::string name;
     std::string color;
+    Birthday birthday;
 
     void speak() {
         std::cout << "Meow";
@@ -43,11 +44,14 @@ int main() {
     Cat cat;
     cat.name = "Jiji";
     cat.color = "black";
+    cat.birthday = {1892, 1, 1};
 
     std::cout << car1.color << " " << car1.brand << " year " << car1.year << "course: " << std::endl;
     std::cout << std::endl << "My birthday is on " << my_birthday.day << "." << my_birthday.month << "."
               << my_birthday.year << " and I'm " << my_birthday.my_age({2022, 10, 13}) << " years old" << std::endl;
-    std::cout << "My cat's name is " << cat.name << std::endl << "He's " << cat.color << std::endl;
+    std::cout << "My cat's name is " << cat.name << std::endl << "Their color is: " << cat.color << std::endl
+              << "Their birthday: " << cat.birthday.year << "/" << cat.birthday.month << "/" << cat.birthday.day
+              << std::endl;
     cat.speak();
 
     return 0;

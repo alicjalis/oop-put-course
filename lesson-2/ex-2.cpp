@@ -39,5 +39,5 @@ int main() {
     std::cout << "Stiffness of tweezers1: " << tweezers1.stiffness_level() << std::endl;
     std::cout << "Color of tweezers1: " << tweezers1.color() << std::endl;
 
-    
+
 }
