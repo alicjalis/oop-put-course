@@ -1,3 +1,0 @@
-C:/Users/alicj/CLionProjects/oop/lesson-1/cmake-build-debug/CMakeFiles/zadania_lab2_PO.dir
-C:/Users/alicj/CLionProjects/oop/lesson-1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/alicj/CLionProjects/oop/lesson-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
