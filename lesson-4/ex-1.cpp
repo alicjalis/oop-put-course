@@ -2,6 +2,13 @@
 
 class age_counter {
 
+public:
+
+    virtual int get_age() = 0;
+};
+
+class years_counter : public age_counter {
+
 protected:
 
     int initial_year;
@@ -9,15 +16,7 @@ protected:
 
 public:
 
-    virtual int get_age() = 0;
-
-    age_counter(int initial_year, int end_year) : initial_year(initial_year), end_year(end_year) {}
-};
-
-class years_counter : public age_counter {
-public:
-
-    years_counter(int initial_year, int end_year) : age_counter(initial_year, end_year) {}
+    years_counter(int initial_year, int end_year) : initial_year(initial_year), end_year(end_year) {}
 
     int get_age() override {
         return (end_year - initial_year);
@@ -25,9 +24,15 @@ public:
 };
 
 class days_counter : public age_counter {
+
+protected:
+
+    int initial_year;
+    int end_year;
+
 public:
 
-    days_counter(int initial_year, int end_year) : age_counter(initial_year, end_year) {}
+    days_counter(int initial_year, int end_year) : initial_year(initial_year), end_year(end_year) {}
 
     int get_age() override {
         return (end_year * 365 - initial_year * 365);
@@ -35,9 +40,15 @@ public:
 };
 
 class minutes_counter : public age_counter {
+
+protected:
+
+    int initial_year;
+    int end_year;
+
 public:
 
-    minutes_counter(int initial_year, int end_year) : age_counter(initial_year, end_year) {}
+    minutes_counter(int initial_year, int end_year) : initial_year(initial_year), end_year(end_year) {}
 
     int get_age() override {
         return (end_year * 525600 - initial_year * 525600);
@@ -51,5 +62,5 @@ int main() {
     std::cout << "Years total: " << y.get_age() << std::endl;
     std::cout << "Days total: " << d.get_age() << std::endl;
     std::cout << "Minutes total: " << m.get_age() << std::endl;
-
+    return 0;
 }
