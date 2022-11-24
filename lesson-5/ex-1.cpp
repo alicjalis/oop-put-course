@@ -1,7 +1,6 @@
 #include <iostream>
 #include <map>
 #include <sstream>
-#include <iomanip>
 
 class FakeCantor {
 private:
